@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="../styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Fun With Triangle</h1>
+        <nav>
+            <a href="/">Is Triangle?</a>
+            <a href="../pages/quiz.html">Triangle Quiz</a>
+            <a href="../pages/hypotenuse.html">Calculate Hypotenuse</a>
+            <a href="../pages/area.html">Calculate Area</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Triangle Quiz</h1>
+        <form class="quiz-form">
+            <div class="question-container">
+                <p>What is the third angle for the triangle where angle1=45° and angle2 = 45°?</p>
+                <label>
+                    <input type="radio" name="question1" value="45°"/>45°
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="60°"/>60°
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="90°"/>90°
+                </label>
+            </div>
+            <div class="question-container">
+                <p>
+                    If a triangle has an angle of 90 degrees, what is it called?
+                </p>
+                <label>
+                    <input type="radio" name="question2" value="obtuse">obtuse
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="acute"/>acute
+                </label>
+                    <input type="radio" name="question2" value="right-angled"/>right-angled
+                </label>
+            </div>
+            <div class="question-container">
+                <p>
+                    Triangle with one angle greater than 90 degrees ?
+                </p>
+                <label>
+                    <input type="radio" name="question3" value="obtuse">obtuse
+                </label>
+                <label>
+                    <input type="radio" name="question3" value="equilateral"/>equilateral
+                </label>
+                    <input type="radio" name="question3" value="isosceles"/>isosceles
+                </label>
+            </div>
+            <div class="question-container">
+                <p>
+                    A triangle with all three angles less than 90 degrees ?
+                </p>
+                <label>
+                    <input type="radio" name="question4" value="equilateral">equilateral
+                </label>
+                <label>
+                    <input type="radio" name="question4" value="acute"/>acute
+                </label>
+                    <input type="radio" name="question4" value="right-angled"/>right-angled
+                </label>
+            </div>
+            <div class="question-container">
+                <p>
+                    A triangle having at least two equal sides ?
+                </p>
+                <label>
+                    <input type="radio" name="question5" value="acute">acute
+                </label>
+                <label>
+                    <input type="radio" name="question5" value="isosceles"/>isosceles
+                </label>
+                    <input type="radio" name="question5" value="right-angled"/>right-angled
+                </label>
+            </div>
+            <div class="question-container">
+                <p>
+                    The sum of the measures of all three sides of a triangle
+                </p>
+                <label>
+                    <input type="radio" name="question6" value="area">area
+                </label>
+                <label>
+                    <input type="radio" name="question6" value="perimeter"/>perimeter
+                </label>
+                    <input type="radio" name="question6" value="diameter"/>diameter
+                </label>
+            </div>
+            <div class="question-container">
+                <p>
+                    In right triangle, the side opposite to right angle is called ?
+                </p>
+                <label>
+                    <input type="radio" name="question7" value="hypotenuse">hypotenuse
+                </label>
+                <label>
+                    <input type="radio" name="question7" value="altitude"/>altitude
+                </label>
+                    <input type="radio" name="question7" value="angle-bisector"/>angle-bisector
+                </label>
+            </div>
+            <div class="question-container">
+                <p>
+                    In equilateral triangle, all three angles are equal ?
+                </p>
+                <label>
+                    <input type="radio" name="question8" value="true">true
+                </label>
+                <label>
+                    <input type="radio" name="question8" value="false"/>false
+                </label>
+                    <input type="radio" name="question8" value="sometimes"/>sometimes
+                </label>
+            </div>
+            <div class="question-container">
+                <p>
+                    The perimeter of a equilateral triangle is 15cm. What is the length of one side?
+                </p>
+                <label>
+                    <input type="radio" name="question9" value="15">15
+                </label>
+                <label>
+                    <input type="radio" name="question9" value="3"/>3
+                </label>
+                    <input type="radio" name="question9" value="5"/>5
+                </label>
+            </div>
+            <div class="question-container">
+                <p>
+                    The sum of all the angles of a triangle ?
+                </p>
+                <label>
+                    <input type="radio" name="question10" value="90 degrees">90 degrees
+                </label>
+                <label>
+                    <input type="radio" name="question10" value="360 degrees"/>360 degrees
+                </label>
+                    <input type="radio" name="question10" value="180 degrees"/>180 degrees
+                </label>
+            </div>
+        </form>
+        <button id="submit-answer-btn">Submit Answer</button>
+        <div id="output"></div>
+    </main>
+    <footer>
+        <p>© | 2021 | anjali chauhan</p>
+        <ul class="list-unordered inline-list">
+          <li>
+            <a
+              class="links"
+              href="https://github.com/anjali1102/"
+              target="_blank"
+            >
+              <img src="../img/github.svg" alt="github" />
+            </a>
+          </li>
+          <li>
+            <a
+              class="links"
+              href="https://twitter.com/anjalii1102"
+              target="_blank"
+            >
+              <img src="../img/twitter.svg" alt="twitter" />
+            </a>
+          </li>
+        </ul>
+    </footer>
+    <script src="../script/quiz.js"></script>
+</body>
+</html>
+
