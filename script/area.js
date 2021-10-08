@@ -27,7 +27,7 @@ function calculateArea(e) {
     ).toFixed(4);
     Output.innerText = `Area of a triangle using heron's formula is ${result} units`;
   } else {
-    Output.innerText = "Enter valid side lengths such that sum of 2 sides is greater than 3rd one";
+    Output.innerText = "Enter valid side lengths such that sum of 2 sides is always greater";
   }
 }
 
