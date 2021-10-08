@@ -22,11 +22,11 @@
       <label class="side">
         <p>Enter base value</p>
       </label>
-      <input type="number" class="side-input" />
+      <input type="number" class="side-input" oninput="this.value = Math.abs(this.value)" />
       <label class="side">
         <p>Enter Height value</p>
       </label>
-      <input type="number" class="side-input" />
+      <input type="number" class="side-input" oninput="this.value = Math.abs(this.value)" />
       <button id="hypotenuse-btn">Calculate Hypotenuse</button>
       <div id="output"></div>
     </main>
