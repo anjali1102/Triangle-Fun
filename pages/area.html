@@ -24,15 +24,15 @@
         <label class="input-label" for="first-side">
             <p>Enter first side of a triangle</p>
         </label>
-        <input type="number" class="input-text angle-input" id="first-side" />
+        <input type="number" class="input-text angle-input" id="first-side" oninput="this.value = Math.abs(this.value)" />
         <label class="input-label" for="second-side">
             <p>Enter second side of a triangle</p>
         </label>
-        <input type="number" class="input-text angle-input" id="second-side" />
+        <input type="number" class="input-text angle-input" id="second-side" oninput="this.value = Math.abs(this.value)"/>
         <label class="input-label" for="third-side">
             <p>Enter third side of a triangle</p>
         </label>
-        <input type="number" class="input-text angle-input" id="third-side" />
+        <input type="number" class="input-text angle-input" id="third-side" oninput="this.value = Math.abs(this.value)" />
         <button id="btn-check">Calculate Area</button>
       </form>
       <div id="output"></div>
